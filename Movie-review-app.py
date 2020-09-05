@@ -11,7 +11,7 @@ st.write(" Number of Classes : 2")
 st.write(" Classifier : Naive Bayes")
 st.write("Accuracy = 0.70")
 
-user_input = st.text_input("Your Review:")
+user_input = st.text_area("Your Review:")
 
 if user_input != '':
   movie_review_data = pd.read_table('movie review.tsv')
