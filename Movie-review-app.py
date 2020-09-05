@@ -9,7 +9,7 @@ st.subheader("Check whether your comment or review about a movie is a positive o
 
 st.write(" Number of Classes : 2")
 st.write(" Classifier : Naive Bayes")
-st.write("Accuracy = 0.86")
+st.write("Accuracy = 0.70")
 
 user_input = st.text_input("Your Review:")
 
