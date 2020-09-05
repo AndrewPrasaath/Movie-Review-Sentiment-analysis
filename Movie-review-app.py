@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 st.title("Movie Review App")
-st.subheader("Check whether your comment or review about a movie is a positive or negative")
+st.subheader("Check whether your comment or review about a movie is a positive or negative review")
 
 st.write(" Number of Classes : 2")
 st.write(" Classifier : Naive Bayes")
